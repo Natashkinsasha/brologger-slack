@@ -1,0 +1,26 @@
+{
+  "name": "brologger-slack",
+  "version": "0.0.4",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "rimraf build && tsc -p tsconfig.build.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.3",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.6.4"
+  },
+  "peerDependencies": {
+    "brologger": "^0.5.3",
+    "axios": "^0.21.0"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "transport"
+  ]
+}
